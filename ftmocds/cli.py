@@ -6,7 +6,7 @@ from followthemoney.cli.util import write_object
 from ftmocds.convert import convert_record
 
 
-@cli.command('import-ocds', help="Import open contracting data")
+@cli.command('import-ocds', help="Import open contracting (OCDS) data")
 @click.option('-i', '--infile', type=click.File('r'), default='-')  # noqa
 @click.option('-o', '--outfile', type=click.File('w'), default='-')  # noqa
 def import_ocds(infile, outfile):
