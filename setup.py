@@ -5,7 +5,7 @@ with open('README.md') as f:
 
 setup(
     name='followthemoney-ocds',
-    version='0.1.0',
+    version='0.2.0',
     author='Organized Crime and Corruption Reporting Project',
     author_email='data@occrp.org',
     long_description=long_description,
